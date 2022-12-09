@@ -1364,9 +1364,4 @@ p.form-message.error {
 
 .about-article{height: 286px;overflow: hidden;position: relative;margin-bottom: 30px;text-align: justify}
 .about-article:after{content: '...';width: 30px;height: 22px;line-height: 22px;position: absolute;right: 0px;bottom: 3px;text-align: right;}
-#bgc{
-    /*    background-image: url("../img/png/圆.png");*/
-    border-radius: 100px;
-    background-color: #FF9900;
-    opacity: 0.3;
-}
+
