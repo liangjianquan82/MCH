@@ -26,21 +26,21 @@ $(function(){
 
 	// 世界地图
 	$(".coordinate-item").hover(function(){
-		$(this).find(".city-name").stop().animate({bottom:'40px',opacity:'0'},160,function(){
+		$(this).find(".city-name").stop().animate({bottom:'40px',opacity:'0'},260,function(){
 			$(this).hide();
 		});
-		$(this).find(".warehouse-detail").show().stop().animate({bottom:'26px',opacity:'1'},100);
+		$(this).find(".warehouse-detail").show().stop().animate({bottom:'26px',opacity:'1'},200);
 	},function(){
-		$(this).find(".warehouse-detail").stop().animate({bottom:'50px',opacity:'0'},100,function(){
+		$(this).find(".warehouse-detail").stop().animate({bottom:'50px',opacity:'0'},200,function(){
 			$(this).hide();
 		});
-		$(this).find(".city-name").show().stop().animate({bottom:'16px',opacity:'1'},160);
+		$(this).find(".city-name").show().stop().animate({bottom:'26px',opacity:'1'},260);
 	});
 
 	$(".coordinate-item").hover(function(){
-		$(this).find(".warehouse_dright").show().stop().animate({left:'22px',opacity:'1'},100);
+		$(this).find(".warehouse_dright").show().stop().animate({left:'22px',opacity:'1'},200);
 	},function(){
-		$(this).find(".warehouse_dright").stop().animate({left:'50px',opacity:'0'},100,function(){
+		$(this).find(".warehouse_dright").stop().animate({left:'50px',opacity:'0'},200,function(){
 			$(this).hide();
 		});
 		
