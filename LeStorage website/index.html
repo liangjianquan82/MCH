@@ -146,7 +146,7 @@
                     </div>
 					
 					<div class="container">
-                        <section id="services" class="section">
+              <section id="services" class="section">
 							
 					<div class="row">
 			<div class="col-lg-6 about-main wow fadeInLeftBig animated animated ">
@@ -177,6 +177,11 @@
 					
 							
                             <div class="row" id="mvup" >
+								<div class="col-xs-12 pt-20">
+           		  <div class="about-main about-content text-center" style="visibility: visible; "><h4 class="  about-welcome" style="text-align: middle;">Our advantages</h4>
+            		  
+					</div>
+				</div>
                                 <div class="col-xs-12 col-sm-3"  >
                                     <a href="" class="sbox"  >
                                         <div class="sbox-inner" id="up" >
@@ -300,7 +305,7 @@
 							<div class="item">
 								<h4 class="with-icon">xxxx</h4>
 								<ul class="house-info">
-									<li><b>面积：</b>275,000㎡</li>
+									<li><b>Area：</b>275,000㎡</li>
 								</ul>
 							</div>
 											</div>
@@ -314,13 +319,13 @@
 				<div class="warehouse-detail">
 					<div class="box-flex">
 						<div class="house-section">
-												<div class="item">
-								<h4 class="with-icon">温哥华</h4>
+							<div class="item">
+								<h4 class="with-icon">Vancouver</h4>
 								<ul class="house-info">
-									<li><b>面积：</b>280,000㎡</li>
+									<li><b>Area：</b>280,000㎡</li>
 								</ul>
 							</div>
-											</div>
+						</div>
 						<div class="house-pic"><img src="img/png/w2.jpg" alt=""></div>
 					</div>
 				</div>
@@ -332,10 +337,10 @@
 				<div class="warehouse-detail">
 					<div class="box-flex">
 						<div class="house-section">
-												<div class="item">
-								<h4 class="with-icon">多伦多</h4>
+							<div class="item">
+								<h4 class="with-icon">Toronto</h4>
 								<ul class="house-info">
-									<li><b>面积：</b>50,000㎡</li>
+									<li><b>Area：</b>50,000㎡</li>
 								</ul>
 							</div>
 											</div>
@@ -359,11 +364,11 @@
                         <section id="caroufredsel-portfolio" class="section type3">
                             <div class="row cnbox">
                                 <div class="col-md-4 wow fadeInLeftBig animated animated" >
-                                    <div class="cbox">
+                                    <div class="cbox gc-advant digital">
                                         <h3 class="cbox-title">our warehouse</h3>
                                         <span class="cbox-counter counter-demo-4" data-lem-counter='{
-										  "value_from": 0, "value_to": 12, "animate_duration": 1, "locale": "en-US"
-										}'>12
+										  "value_from": 0, "value_to": 100, "animate_duration": 5, "locale": "en-US"
+										}'>100
 										</span>	
 										<span class="cbox-counter">+
 										</span>	
@@ -498,7 +503,7 @@
                                     <div class="cbox">
                                         <h3 class="cbox-title">Our Clients</h3>
                                         <span class="cbox-counter counter-demo-4 " data-lem-counter='{
-										  "value_from": 0, "value_to": 10, "animate_duration": 1, "locale": "en-US"
+										  "value_from": 0, "value_to": 10, "animate_duration": 5, "locale": "en-US"
 										}'>10
 										</span>	
 										<span class="cbox-counter">+
@@ -598,7 +603,8 @@
 <script src="https://hm.baidu.com/hm.js?0f81c8c45e77f965513f9c256473a8b6"></script>
 <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-M8FFMGB"></script>
 <!--====== jquery js ======-->
-
+<script src="js/swiper.min.js"></script>
+<script src="js/TweenLite.min.js"></script>
 
 
 
@@ -645,6 +651,30 @@
 
 			});
 		</script>
+	
+<script>
+    new WOW().init();
+
+    var swiper = new Swiper('#realistic-pic', {
+        slidesPerView: 4,
+        spaceBetween: 26,
+        slidesPerGroup: 1,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+</script>
 <script type="text/javascript">
 	$(document).ready(function(){
 		$('#headerpage').load('header.html');
