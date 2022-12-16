@@ -8,6 +8,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <title>services</title>
+<!--<link type="text/css" rel="stylesheet" charset="UTF-8" href="css/translateelement.css">-->
 <!--====== Favicon Icon ======-->
 <link rel="shortcut icon" href="assets/images/logo11.png" type="image/png">
 
@@ -624,7 +625,23 @@
 //	$.get("header.html",function(data){$("#headerpage").html(data);})
 	
 </script>
+<!--
+<script src="js/translate.js"></script>
+	<script>
+    translate.execute();
+</script>
+-->
+<script type="text/javascript">
+    function googleTranslateElementInit(){
+        new google.translate.TranslateElement({
+            pageLanguage: 'en',
+            includedLanguages: 'zh-CN,en,fr',
+            autoDisplay:false
+        },'google_translate_element');
+    }
+</script>
 
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>
 
