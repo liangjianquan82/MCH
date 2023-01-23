@@ -2531,6 +2531,8 @@ address {
 .ml-2 {
     margin-left: .5rem;
 }
+
+/*google翻译用到css  开始*/
 #google_translate_element {
     overflow: hidden;
     border-width: 2px;
@@ -2543,7 +2545,7 @@ address {
 .goog-te-combo {
     margin-top: 0 !important;
     padding-top: 0 !important;
-    font-size: 1.2rem !important;
+    font-size: 1rem !important;
     line-height: 1rem !important;
     outline: 2px solid transparent !important;
     outline-offset: 2px !important;
@@ -2556,10 +2558,11 @@ address {
     position: fixed !important;
 }
 .goog-te-gadget .goog-te-combo {
-    font-size: 1.2rem!important;
+    font-size: 1rem!important;
     line-height: 1rem!important;
     margin: 0!important;
     outline: .125rem solid #0000!important;
     outline-offset: .125rem!important;
     padding: .25rem!important;
 } 
+/*google翻译用到css  结束*/
